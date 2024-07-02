@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: radial-gradient(
+      circle at center center,
+      rgba(7, 58, 199, 0.34) 0%,
+      rgba(7, 58, 199, 0.34) 99%,
+      transparent 99%,
+      transparent 100%
+    ),
+    radial-gradient(
+      circle at center center,
+      rgba(152, 90, 129, 0.34) 0%,
+      rgba(152, 90, 129, 0.34) 19%,
+      transparent 19%,
+      transparent 100%
+    ),
+    radial-gradient(
+      circle at center center,
+      rgba(148, 18, 17, 0.34) 0%,
+      rgba(148, 18, 17, 0.34) 44%,
+      transparent 44%,
+      transparent 100%
+    ),
+    radial-gradient(
+      circle at center center,
+      rgba(142, 174, 251, 0.34) 0%,
+      rgba(142, 174, 251, 0.34) 11%,
+      transparent 11%,
+      transparent 100%
+    ),
+    linear-gradient(106deg, rgb(0, 0, 0), rgb(0, 0, 0));
+  background-size: 10px 10px;
+}
+.header {
+  h1 {
+    font-size: 200px;
+    margin-top: 2px;
+    color: white;
+    font-style: italic;
+    filter: drop-shadow(10px 5px 10px rgb(221, 6, 174));
+  }
+}
+h2 {
+  word-spacing: 10px;
+  color: gold;
+}
+img {
+  border-color: yellowgreen;
+  border-style: solid;
+  border-radius: 8px;
+  border-width: 10px;
+  width: 1000px;
+  height: 700px;
+}
+.link {
+  h1 {
+    color: white;
+  }
+}
+a {
+  color: brown;
+}
+.landing {
+  background-color: rgb(235, 213, 19);
+  width: 150px;
+  height: 70px;
+  border-radius: 25px;
+}
+.landing:hover {
+  background-color: rgb(13, 236, 31);
+  color: rgb(14, 13, 13);
+}
